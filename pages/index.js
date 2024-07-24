@@ -127,7 +127,7 @@ export default function Home() {
 
               <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-4 h-[475px]">
                 <Image
-                  url="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmWGMss9VKkW3VnQ7XNgaRyiZSh7yj5J3Vt32ue3HR82a2"
+                  src="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmWGMss9VKkW3VnQ7XNgaRyiZSh7yj5J3Vt32ue3HR82a2"
                   alt="Pinnie with scuba gear on"
                   height="300"
                   width="200"
@@ -139,7 +139,7 @@ export default function Home() {
 
               <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-4 h-[475px]">
                 <Image
-                  url="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmXiL6S9faYALFK6smjgHzTyXKcGLzouo9ZVdbXgueaPEF"
+                  src="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmXiL6S9faYALFK6smjgHzTyXKcGLzouo9ZVdbXgueaPEF"
                   alt="Pinnie floating with balloons"
                   height="300"
                   width="200"
@@ -151,7 +151,7 @@ export default function Home() {
 
               <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-4 h-[475px]">
                 <Image
-                  url="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmWGMss9VKkW3VnQ7XNgaRyiZSh7yj5J3Vt32ue3HR82a2"
+                  src="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmWGMss9VKkW3VnQ7XNgaRyiZSh7yj5J3Vt32ue3HR82a2"
                   alt="Pinnie with scuba gear on"
                   height="300"
                   width="200"
@@ -163,7 +163,7 @@ export default function Home() {
 
               <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-4 h-[475px]">
                 <Image
-                  url="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmTuToUAPVmCc5AvYMcHWUmENuJrgh8iVTtq2bxE7SEgD6"
+                  src="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmTuToUAPVmCc5AvYMcHWUmENuJrgh8iVTtq2bxE7SEgD6"
                   alt="Pinnie floating with balloons"
                   height="300"
                   width="200"
@@ -175,7 +175,7 @@ export default function Home() {
 
               {/* <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-4 h-[475px]">
                 <Image
-                  url="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/Qmb4iQVHMn3VW961kFUhRhrh3t89mfrkFG32h2HZaSpHaA"
+                  src="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/Qmb4iQVHMn3VW961kFUhRhrh3t89mfrkFG32h2HZaSpHaA"
                   alt="Pinnie with scuba gear on"
                   height="300"
                   width="200"
