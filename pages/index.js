@@ -112,13 +112,13 @@ export default function Home() {
             </div>
           </div>
           <div className="h-full w-full bg-secondary">
-            <div className="max-w-screen-xl min-h-full my-8 mx-auto flex justify-center items-center gap-8">
-              <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-4 h-[475px]">
+            <div className="max-w-screen-xl min-h-full my-10 mx-auto flex justify-center items-center gap-6">
+              <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-3 h-[475px]">
                 <Image
                   src="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/QmXiL6S9faYALFK6smjgHzTyXKcGLzouo9ZVdbXgueaPEF"
                   alt="Pinnie floating with balloons"
-                  height="300"
-                  width="200"
+                  height="275"
+                  width="140"
                 />
                 <h2 className="font-telegraf font-bold text-3xl">
                   Titanic VD1
@@ -172,18 +172,6 @@ export default function Home() {
                   Titanic VD2
                 </h2>
               </div>
-
-              {/* <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-4 h-[475px]">
-                <Image
-                  src="https://teal-deliberate-cephalopod-769.mypinata.cloud/ipfs/Qmb4iQVHMn3VW961kFUhRhrh3t89mfrkFG32h2HZaSpHaA"
-                  alt="Pinnie with scuba gear on"
-                  height="300"
-                  width="200"
-                />
-                <h2 className="font-telegraf font-bold text-3xl">
-                  Oceans 11 VD3
-                </h2>
-              </div> */}
             </div>
           </div>
 
