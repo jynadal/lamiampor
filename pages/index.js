@@ -54,18 +54,19 @@ export default function Home() {
           content="Lamiam Proof of Reserve for Movies to be mint for Real Word Assets"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/pinnie.png" />
+        {/* <link rel="icon" href="/pinnie.png" /> */}
       </Head>
       <main className="w-full min-h-screen m-auto flex flex-col justify-center items-center">
         <div className="w-full h-full m-auto bg-heroImage bg-cover bg-center flex flex-col justify-center items-center">
           <div className="h-full max-w-screen-xl">
             <div className="w-full m-auto mt-16 flex justify-start items-center">
-              <Image
+              {/* <Image
                 src="/logo.png"
                 alt="Pinata logo"
                 height={30}
                 width={115}
-              />
+              /> */}
+              <h2>LamiamPoR</h2>
             </div>
             <div className="h-full w-full m-auto flex justify-center items-center gap-8">
               <div className="w-1/2 flex flex-col gap-6">
@@ -76,6 +77,13 @@ export default function Home() {
                   watch. Lamiam is a centralised, trusted warehouse who can
                   stock real movies, mint there a proof on BTC smart contract
                   and give to Bankable the autorisation for minting a RWA.
+                </p>
+                <p>
+                  {/* For the need of our project, we also have to proof that our
+                  Start-up or users have already got those movies they want to
+                  watch. Lamiam is a centralised, trusted warehouse who can
+                  stock real movies, mint there a proof on BTC smart contract
+                  and give to Bankable the autorisation for minting a RWA. */}
                 </p>
                 <input
                   type="file"
