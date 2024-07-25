@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import Files from '@/components/Files';
+import Form from './Form';
 
 export default function Home() {
   const [file, setFile] = useState('');
@@ -110,12 +111,13 @@ export default function Home() {
                 {cid && <Files cid={cid} />}
               </div>
               <div className="w-1/2 flex justify-center items-center h-full">
-                <Image
+                {/* <Image
                   height={600}
                   width={600}
                   src="/hero.png"
                   alt="hero image of computer and code"
-                />
+                /> */}
+                <Form />
               </div>
             </div>
           </div>

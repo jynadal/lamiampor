@@ -1,6 +1,7 @@
 // pages/api/save-json.js
-import fs from 'fs';
+//import fs from 'fs-extra';
 import path from 'path';
+import fs from 'graceful-fs';
 
 export default function handler(req, res) {
   if (req.method === 'POST') {
