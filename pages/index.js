@@ -48,10 +48,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LamiamPoR App</title>
+        <title>VDTK App</title>
         <meta
           name="description"
-          content="Lamiam Proof of Reserve for Movies to be mint for Real Word Assets"
+          content="VDTK Proof of Reserve for Movies to be mint for Real Word Assets"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href="/pinnie.png" /> */}
@@ -66,22 +66,22 @@ export default function Home() {
                 height={30}
                 width={115}
               /> */}
-              <h2>LamiamPoR</h2>
+              <h2>VDTK</h2>
             </div>
             <div className="h-full w-full m-auto flex justify-center items-center gap-8">
               <div className="w-1/2 flex flex-col gap-6">
-                <h1>Lamiam Proof of Reserve</h1>
+                <h1>VDTK Proof of Reserve</h1>
                 <p>
                   For the need of our project, we also have to proof that our
                   Start-up or users have already got those movies they want to
-                  watch. Lamiam is a centralised, trusted warehouse who can
+                  watch. VDTK is a centralised, trusted warehouse who can
                   stock real movies, mint there a proof on BTC smart contract
                   and give to Bankable the autorisation for minting a RWA.
                 </p>
                 <p>
                   {/* For the need of our project, we also have to proof that our
                   Start-up or users have already got those movies they want to
-                  watch. Lamiam is a centralised, trusted warehouse who can
+                  watch. VDTK is a centralised, trusted warehouse who can
                   stock real movies, mint there a proof on BTC smart contract
                   and give to Bankable the autorisation for minting a RWA. */}
                 </p>
