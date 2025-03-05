@@ -48,10 +48,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>VDTK App</title>
+                <title>VDTK | Tokenized your DVDs and VHS</title>
         <meta
           name="description"
-          content="VDTK Proof of Reserve for Movies to be mint for Real Word Assets"
+          content="VDTK is a DePIN to Tokenized DVDs and VHSs tape. We also do the Proof of Reserve for your favorite Movies to be mint for Real Word Assets"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href="/pinnie.png" /> */}
@@ -70,13 +70,17 @@ export default function Home() {
             </div>
             <div className="h-full w-full m-auto flex justify-center items-center gap-8">
               <div className="w-1/2 flex flex-col gap-6">
-                <h1>VDTK Proof of Reserve</h1>
-                <p>
+                <h1>VDTK Tokenising & Proof of Reserve</h1>
+               <p>
                   For the need of our project, we also have to proof that our
-                  Start-up or users have already got those movies they want to
-                  watch. VDTK is a centralised, trusted warehouse who can
-                  stock real movies, mint there a proof on BTC smart contract
-                  and give to Bankable the autorisation for minting a RWA.
+                  Start-up or users have already got those movies.
+                  <br />
+                  VDTK is a DePIN (Decentralized Physical Infrastructure
+                  Network). We use blockchain technology to manage and operate
+                  physical Infrastructure. For VDTK, we manage a trusted
+                  warehouse who can stock and control real movies, mint a
+                  collateral NFT (RWA) for proof on BTC, Link or others smart
+                  contract.
                 </p>
                 <p>
                   {/* For the need of our project, we also have to proof that our
@@ -109,6 +113,7 @@ export default function Home() {
                 </div>
                 {cid && <Files cid={cid} />}
               </div>
+                  
               <div className="w-1/2 flex justify-center items-center h-full">
                 <Image
                   height={600}
@@ -119,6 +124,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+                    
           <div className="h-full w-full bg-secondary">
             <div className="max-w-screen-xl min-h-full my-10 mx-auto flex justify-center items-center gap-6">
               <div className="text-center bg-light rounded-lg w-full flex flex-col justify-center items-center p-2 gap-3 h-[505px]">
